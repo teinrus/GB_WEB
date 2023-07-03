@@ -1,0 +1,16 @@
+
+-- create
+CREATE TABLE groupmates (
+  Id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age TEXT NOT NULL,
+  address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO groupmates VALUES (0001, 'Clark', '19',"Moskow");
+INSERT INTO groupmates VALUES (0002, 'Dave', '25',"Piter");
+INSERT INTO groupmates VALUES (0003, 'Ava', '20',"Krasnodar");
+
+-- fetch 
+SELECT * FROM groupmates;
